@@ -19,10 +19,17 @@
 
     <style id="compiled-css" type="text/css">
 	
+.category {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 10px; /* change this to whatever height you want it */
+}
+
 .scroll-container {
 
 max-width: 100%; 
 overflow-y: hidden;
+overflow: hidden;
 
 .row{
   flex-wrap: nowrap;
@@ -112,7 +119,8 @@ overflow-y: hidden;
   <body>
     <div class="container scroll-container text-center">
 
- <h2 class="text-center" style="color:#007bff;">*** New on Anya & Lolo ***</h2>
+<br class="category">
+ <h2 class="text-center" style="color:#007bff;">*** Anya & Logo News ***</h2>
 
   <div class="row">
   
